@@ -1,0 +1,1 @@
+cmd_/home/minhquan/os_project/part1/kernel_module/mymodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/minhquan/os_project/part1/kernel_module/mymodule.ko /home/minhquan/os_project/part1/kernel_module/mymodule.o /home/minhquan/os_project/part1/kernel_module/mymodule.mod.o ;  true
